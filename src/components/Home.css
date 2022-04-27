@@ -1,0 +1,96 @@
+.root ul {
+  height: 100vh;
+  background-color: whitesmoke;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+p {
+  background-color: rgb(224, 224, 224);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 60%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.generate__btn {
+  align-self: left;
+  padding: 0.6rem;
+  font-size: 2rem;
+  background-color: rgb(75, 103, 89);
+  color: white;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.generate__btn:hover {
+  background-color: rgb(90, 124, 107);
+  color: whitesmoke;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+}
+
+.numbers__container {
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(175, 175, 175);
+  margin: 2rem;
+  padding: 1rem;
+  width: 35%;
+  border-radius: 2rem;
+}
+
+.operations {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  padding: 0.6rem;
+  font-size: 2rem;
+  background-color: rgb(96, 134, 105);
+  color: white;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(108, 151, 118);
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 768px) {
+  .numbers__container {
+    width: 45%;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+  }
+}
